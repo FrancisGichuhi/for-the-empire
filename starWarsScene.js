@@ -1,4 +1,4 @@
-xfunction spotEachRebel(rebels) {
+function spotEachRebel(rebels) {
   var spottedRebelCalls = []
   var i;
   
@@ -9,7 +9,7 @@ xfunction spotEachRebel(rebels) {
   return spottedRebelCalls
 }
 
-xfunction seeRebelsEscape(rebels) {
+function seeRebelsEscape(rebels) {
   var escapedRebelCalls = []
   var i = 0
 
@@ -20,8 +20,8 @@ xfunction seeRebelsEscape(rebels) {
 
   return escapedRebelCalls
 }
-
-xfunction shootAtNothing() {
+//hello
+function shootAtNothing() {
   var shotsAtNothing = []
 
   for (var i = 1; i < 4; i++) {
