@@ -4,7 +4,7 @@ var deliverStormTroopersEscapeScene = require('./starWarsScene').deliverStormTro
 var { describe, it } = mocha
 
 describe('StarWarsScene', function () {
-  it('returns shots and lines for Luke, Leia, and Han\'s escape scene', function () {
+  xit('returns shots and lines for Luke, Leia, and Han\'s escape scene', function () {
     var rebels = [
       { name: 'Luke Skywalker', plotArmor: true },
       { name: 'Leia Organa', plotArmor: true },
@@ -19,7 +19,7 @@ describe('StarWarsScene', function () {
       ])
   })
 
-  it('returns only shots when the rebels include random extras', function () {
+  xit('returns only shots when the rebels include random extras', function () {
     var rebels = [
       { name: 'Chewbacca', plotArmor: true },
       { name: 'Some Rebel', plotArmor: false },
@@ -33,7 +33,7 @@ describe('StarWarsScene', function () {
       ])
   })
 
-  it('returns shots and lines for 3PO and Artoo\'s escape scene', function () {
+  xit('returns shots and lines for 3PO and Artoo\'s escape scene', function () {
     var rebels = [
       { name: 'R2D2', plotArmor: true },
       { name: 'C3PO', plotArmor: true },
@@ -46,7 +46,7 @@ describe('StarWarsScene', function () {
       ])
   })
 
-  it('returns shots at nothing when there are no rebels', function () {
+  xit('returns shots at nothing when there are no rebels', function () {
     var rebels = []
 
     expect(deliverStormTroopersEscapeScene(rebels))
